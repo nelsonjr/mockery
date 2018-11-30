@@ -10,6 +10,12 @@ the boilerplate coding required to use mocks.
 
 `go get github.com/vektra/mockery/.../`, then `$GOPATH/bin/mockery`
 
+#### Go 1.11+
+
+If you are using Go 1.11 or later and have go modules enabled you can run the application directly:
+
+    go run https://github.com/vektra/mockery/cmd/mockery
+
 ### Examples
 
 #### Simplest case
